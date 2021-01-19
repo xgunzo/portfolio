@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Cinzel&family=Karla&display=swap');
+body
+{
+    margin: 0;
+    background-color: antiquewhite;
+    color: black;
+    box-sizing: border-box;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+header
+{
+    position: fixed;
+    background-color: rgb(197, 190, 181);
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-family: "Cinzel", serif;    
+}
+
+.name
+{
+    margin-left: 3em;
+}
+
+.name a {
+    text-decoration: none;
+    color: black;
+}
+
+.zegar
+{
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+    margin-left: 37%;
+}
+
+.navigation 
+{
+   align-self: center;
+    
+   
+}
+
+.o_mnie, .moje_projekty, .kontakt
+{
+    padding: 0 3em 0 3em;
+}
+
+.navigation > a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation a:hover
+{
+    background-color: rgb(172, 165, 157);
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+section
+{
+    margin-top: 2em;
+  
+    font-family: "Barlow Condensed", serif;
+}
+
+.my_photo
+{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 7em;
+}
+
+.my_photo:hover {
+    transform: scale(1.5);
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+.photo_about
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20em;
+    margin-left: 20em;
+    margin-right: 20em;
+  
+}
+
+.about 
+{
+    display: flex;
+    font-size: 30px;
+    margin-top: 2em;
+    
+}
+
+#about
+{
+    margin-top: 10em;
+    padding-top: 20em;
+}
+
+
+#about h2
+{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.about-text
+{
+    margin-left: 5em;
+    margin-right: 5em;
+    font-size: 25px;
+}
+
+
+.text
+{
+    margin-top: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: center;
+}
+
+
+
+#projects
+{
+    font-size: 25px;
+    margin-top: 15em;
+    padding-top: 3em;
+}
+
+#projects h2
+{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#projects p
+{
+   
+    margin-left: 3em;
+    margin-right: 3em;
+    text-align: center;
+}
+
+#websites
+{
+  
+    margin-top: 5em;
+}
+
+#websites img:hover {
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+    opacity: 0.8;
+    transition-timing-function: ease-in-out;
+}
+
+.row1 {
+    display: table;
+    padding: 0 4px;
+    margin: 0 auto;
+}
+
+.row2 {
+    display: table;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.row3 {
+    display: table;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.visurie
+{
+    width: 700px;
+    height: 400px;
+    
+}
+
+.honda
+{
+    width: 700px;
+    height: 400px;
+   
+}
+
+
+
+.custom
+{
+    width: 700px;
+    height: 400px;
+   
+}
+
+#contact
+{
+    margin-top: 25em;
+    padding-top: 4em;
+}
+
+#contact h2
+{
+    text-align: center;
+    font-size: 35px;  
+    font-weight: 700;  
+}
+
+#contact p
+{
+    margin-top: 0em;
+    text-align: center;
+    font-size: 25px;
+}
+
+form
+{
+    margin-left: 35%;
+    margin-right:35%;
+    width: 30%;
+    margin-top: 5em;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(197, 190, 181);
+}
+
+
+
+form input {
+    border-radius: 15px;
+    height: 35px;
+    width: 400px;
+    font-size: 18px;
+}
+
+form textarea {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 400px;
+    height: 150px;
+    font-size: 18px;
+}
+
+form input[type=submit] {
+    margin-left: 30%;
+    margin-top: 2em;
+    font-size: 25px;
+    height: 50px;
+    border-radius: 20px;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+form input[type=submit]:hover {
+    background-color: antiquewhite;
+    transform: scale(0.8);
+    border-radius: 40px;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+label 
+{
+    font-size: 25px;
+    font-weight: 700;
+    text-align:left;
+    width:150px;
+    display:block;
+    float:left;
+    clear:right;
+    font-size:18;
+  }
+
+
+  footer
+{
+    background-color: rgb(197, 190, 181);
+    margin-top: 5em;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Cinzel", serif;  
+}
+
+footer p
+{
+    margin-top: 2em;
+}
