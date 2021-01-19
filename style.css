@@ -315,3 +315,233 @@ footer p
 {
     margin-top: 2em;
 }
+
+@media only screen and (max-width: 700px) {
+    header
+    {
+        font-size: 8px;  
+    }
+    
+    .name
+{
+    margin-left: 1em;
+}
+
+    .zegar
+    {
+        margin-left: 10%;
+    }
+    
+    .navigation 
+    {
+        font-size: 8px; 
+        margin-right: 1em; 
+    }
+    
+    .o_mnie, .moje_projekty, .kontakt
+    {
+        padding: 0 0em 0 1em;
+    }
+    
+
+    
+    section
+    {
+        margin-top: 2em;
+        font-family: "Barlow Condensed", serif;
+    }
+    
+    .my_photo
+    {
+        width: 150px;
+        height: 150px;
+    }
+   
+    .photo_about
+    {;
+        margin-top: 20em;
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+    
+    .about 
+    {
+        font-size: 25px;
+        margin-top: 1em;
+    }
+    
+    #about
+    {
+        margin-top: 20em;
+        padding-top: 2em;
+    }
+    
+    
+    #about h2
+    {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .about-text
+    {
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 5em;
+        font-size: 15px;
+    }
+    
+    
+    .text
+    {
+        margin-top: 5em;
+        margin-left: 3em;
+        margin-right: 3em;
+        text-align: center;
+    }
+    
+    
+    
+    #projects
+    {
+        font-size: 15px;
+        margin-top: 10em;
+        padding-top: 2  em;
+    }
+    
+    #projects h2
+    {
+        text-align: center;
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    #projects p
+    {
+       
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 5em;
+        text-align: center;
+    }
+    
+    #websites
+    {
+      
+        margin-top: 5em;
+    }
+    
+    #websites img:hover {
+        transform: scale(0.9);
+        transition-duration: 0.5s;
+        opacity: 0.8;
+        transition-timing-function: ease-in-out;
+    }
+    
+    .row1 {
+        display: table;
+        padding: 0 4px;
+        margin: 0 auto;
+    }
+    
+    .row2 {
+        display: table;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    
+    .row3 {
+        display: table;
+        margin: 0 auto;
+        margin-top: 2em;
+    }
+    
+    .visurie
+    {
+        width: 300px;
+        height: 160px;
+    }
+    
+    .honda
+    {
+        width: 300px;
+        height: 160px;
+    }
+    
+    
+    
+    .custom
+    {
+        width: 300px;
+        height: 160px;
+    }
+    
+    #contact
+    {
+        margin-top: 10em;
+        padding-top: 2em;
+    }
+    
+    #contact h2
+    {
+        text-align: center;
+        font-size: 25px;  
+        font-weight: 700;  
+    }
+    
+    #contact p
+    {
+        margin-top: 0em;
+        font-size: 15px;
+    }
+    
+    form
+    {
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 65%;
+        margin-top: 2em;
+    }
+    
+    
+    
+    form input {
+        border-radius: 15px;
+        height: 15px;
+        width: 135px;
+        font-size: 10px;
+    }
+    
+    form textarea {
+        border-radius: 15px;
+        margin-top: 1em;
+        width: 240px;
+        height: 150px;
+        font-size: 10px;
+    }
+    
+    form input[type=submit] {
+        margin-left: 10%;
+        margin-top: 2em;
+        font-size: 15px;
+        height: 30px;
+        width: 200px;
+
+    }
+    
+    
+    label 
+    {
+        font-size: 18px;
+        width:100px;
+      }
+    
+    
+      footer
+    {
+        font-size: 15px;  
+    }
+
+    
+}
